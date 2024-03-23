@@ -17,15 +17,15 @@ Bioinformatic proyect with RNA-seq data from the papper "Identification of diffe
 
 > ### How to download the data
 
-The data for this article are available in the Gene Expression Omnibus (GEO) (GSE139274, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139274). The data were downloaded from the European Nucleotide Archive (ENA) in fastq.gz format with the next command:
+The data for this article are available in the Gene Expression Omnibus (GEO) (GSE139274, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139274). The data were downloaded from the European Nucleotide Archive (ENA) in fastq.gz format with **the next command**:
 
 ```
 cd /mnt/Guanina/bioinfo24/Equipo4/proyecto/Raw_data/
-wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/079/SRR10333579/SRR10333579_1.fastq.gz ###Usando wget estamos indicando que se
-wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/079/SRR10333579/SRR10333579_2.fastq.gz ###descargaran archivos de internet
-wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/082/SRR10333582/SRR10333582_1.fastq.gz ###y despues de wget se coloca la
-wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/082/SRR10333582/SRR10333582_2.fastq.gz ###direccion de donde se encuentra dicho
-wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/084/SRR10333584/SRR10333584_1.fastq.gz ###archivo
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/079/SRR10333579/SRR10333579_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/079/SRR10333579/SRR10333579_2.fastq.gz 
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/082/SRR10333582/SRR10333582_1.fastq.gz 
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/082/SRR10333582/SRR10333582_2.fastq.gz 
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/084/SRR10333584/SRR10333584_1.fastq.gz 
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/084/SRR10333584/SRR10333584_2.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/078/SRR10333578/SRR10333578_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/078/SRR10333578/SRR10333578_2.fastq.gz
@@ -37,5 +37,11 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/083/SRR10333583/SRR10333583_1.fas
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/083/SRR10333583/SRR10333583_2.fastq.gz
 
 ```
+Once the files are downloaded we unzip the files with the following command: 
 
+```
+gzip -d *.fastq.gz
+```
+
+The commands are in the [human.sh]() script
 
