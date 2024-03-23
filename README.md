@@ -15,6 +15,7 @@ Bioinformatic proyect with RNA-seq data from the papper "Identification of diffe
 
 # Data download
 > How to download the data
+
 The data for this article are available in the Gene Expression Omnibus (GEO) (GSE139274, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139274). The data were downloaded from the European Nucleotide Archive (ENA) in fastq.gz format with the next command:
 `
 cd /mnt/Guanina/bioinfo24/Equipo4/proyecto/Raw_data/
