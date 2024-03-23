@@ -27,12 +27,12 @@ module load trimmomatic/0.33
 #
 # Write your commands in the next line 
 
-cd /mnt/Guanina/bioinfo24/Equipo4/proyecto/data 
+cd /mnt/Guanina/bioinfo24/Equipo4/proyecto/Raw_data 
 
 trimmomatic PE -threads 8 -phred33 SRR10333584_1.fastq SRR10333584_2.fastq \
-/mnt/Guanina/bioinfo24/Equipo4/proyecto/TRIM_results/SRR10333584_1_trimmed.fq.gz \
-/mnt/Guanina/bioinfo24/Equipo4/proyecto/TRIM_results/SRR10333584_1_unpaired.fq.gz \
-/mnt/Guanina/bioinfo24/Equipo4/proyecto/TRIM_results/SRR10333584_2_trimmed.fq.gz \
-/mnt/Guanina/bioinfo24/Equipo4/proyecto/TRIM_results/SRR10333584_2_unpaired.fq.gz \
-ILLUMINACLIP:/mnt/Guanina/bioinfo24/Equipo4/proyecto/TRIM_results/adaptadores/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:80 
+/mnt/Guanina/bioinfo24/Equipo4/proyecto/Data_trimmed/SRR10333584_1_trimmed.fq.gz \
+/mnt/Guanina/bioinfo24/Equipo4/proyecto/Data_trimmed/SRR10333584_1_unpaired.fq.gz \
+/mnt/Guanina/bioinfo24/Equipo4/proyecto/Data_trimmed/SRR10333584_2_trimmed.fq.gz \
+/mnt/Guanina/bioinfo24/Equipo4/proyecto/Data_trimmed/SRR10333584_2_unpaired.fq.gz \
+ILLUMINACLIP:/mnt/Guanina/bioinfo24/Equipo4/proyecto/Data_trimmed/adaptadores/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:80 
 
