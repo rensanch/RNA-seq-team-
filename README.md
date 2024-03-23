@@ -151,7 +151,7 @@ The rute that directs you to the .fastqc files and multiqc in the FastQC_trimmed
 
 ## Alignment
 
-> How to align with STAR?
+> # How to align with STAR?
 
 First we make the index of the genome, to create the index, the reference genome and the annotation file are needed. These files are available in the cluster in the following paths:
 
