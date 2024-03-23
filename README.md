@@ -43,5 +43,12 @@ Once the files are downloaded we unzip the files with the following command:
 gzip -d *.fastq.gz
 ```
 
-The commands are in the [human.sh]() script
+The commands are in the [human.sh](https://github.com/rensanch/RNA-seq-team-/blob/main/Methods%20and%20results/humano.sh) script that is in the Methods and results directory.
+The rute that directs you to the .fastq files in the Raw_data folder is : 
+
+```
+/mnt/Guanina/bioinfo24/Equipo4/proyecto/Raw_data
+```
+
+
 
