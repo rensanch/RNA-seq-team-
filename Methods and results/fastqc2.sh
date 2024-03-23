@@ -26,6 +26,6 @@ module load fastqc/0.12.1
 # -l virtual_free=4G
 #
 # Write your commands in the next line 
-cd /mnt/Guanina/bioinfo24/Equipo4/proyecto/TRIM_results
+cd /mnt/Guanina/bioinfo24/Equipo4/proyecto/Data_trimmed
 
-fastqc -o /mnt/Guanina/bioinfo24/Equipo4/proyecto/quality2 *.fq.gz 
+fastqc -o /mnt/Guanina/bioinfo24/Equipo4/proyecto/FastQC_trimmed *.fq.gz 
