@@ -1,6 +1,6 @@
 # RNA-seq 
-> ## Made by Valeria M. Cuevas and Renata S. CHiw
-Bioinformatic proyect with RNA-seq data from the papper "Identification of differentially expressed lncRNAs and mRNAs in luminal-B breast cancer by RNA-sequencing".
+> ### Made by Valeria M. Cuevas and Renata S. CHiw
+Bioinformatic project with RNA-seq data from the papper "Identification of differentially expressed lncRNAs and mRNAs in luminal-B breast cancer by RNA-sequencing".
 
 ## Data description
 
